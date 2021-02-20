@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: roboto;
+    color: white;
+    background-image: url(wallpaper.jpg);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 5px;
+}
+
+a {
+    color: silver;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.inp {
+    width: 500px;
+    background-color: white;
+    transition: 0.5s all;
+}
+
+.inp:hover {
+    background-color: silver;
+}
+
+.submit {
+    background-color: silver;
+    transition: 0.5s all;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.submit:hover {
+    letter-spacing: 2px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
